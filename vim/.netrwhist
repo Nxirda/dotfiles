@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/Nxirda/.vim/colors'
+let g:netrw_dirhist_0='/home/Nxirda/.vim/colors/iceberg'
+let g:netrw_dirhist_9='/home/Nxirda/.vim/colors/iceberg/src'
+let g:netrw_dirhist_8='/home/Nxirda/.vim/colors'
+let g:netrw_dirhist_7='/home/Nxirda/Desktop/project/benchmark/lib'
+let g:netrw_dirhist_6='/home/Nxirda/Desktop/project/benchmark'
+let g:netrw_dirhist_5='/home/Nxirda/Downloads/TP3'
+let g:netrw_dirhist_4='/home/Nxirda/Desktop/project/hod'
+let g:netrw_dirhist_3='/home/Nxirda/Desktop/project'
+let g:netrw_dirhist_2='/home/Nxirda'

@@ -1,0 +1,8 @@
+[window]
+title = "alacritty"
+dynamic_title = true
+padding = {x = 3, y = 3}
+
+[font]
+normal = { family = "FiraMono", style = "Regular"}
+size = 7

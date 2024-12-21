@@ -1,5 +1,5 @@
 [window]
-title = "alacritty"
+title = "Alacritty"
 dynamic_title = true
 padding = {x = 3, y = 3}
 

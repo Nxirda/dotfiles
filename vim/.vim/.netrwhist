@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/Nxirda/Desktop/IHPS/COA/adrien-henrot/lab2/dragon-tiger/src/ast'
+let g:netrw_dirhist_2='/home/Nxirda/Desktop/IHPS/ISM/LennardJonesPotential'
+let g:netrw_dirhist_1='/home/Nxirda/Desktop/IHPS/ISM/LennardJonesPotential/Build'
+let g:netrw_dirhist_0='/home/Nxirda/Desktop/IHPS/ISM/LennardJonesPotential'
+let g:netrw_dirhist_9='/home/Nxirda'
+let g:netrw_dirhist_8='/home/Nxirda/.config/waybar'
+let g:netrw_dirhist_7='/home/Nxirda/.config/hypr'
+let g:netrw_dirhist_6='/home/Nxirda/.config'
+let g:netrw_dirhist_5='/home/Nxirda/.config/waybar'
+let g:netrw_dirhist_4='/home/Nxirda/Desktop/IHPS/QC'

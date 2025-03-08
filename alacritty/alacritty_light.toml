@@ -11,4 +11,4 @@ bold_italic = {family = "FiraMono"}
 size = 7
 
 [colors]
-primary.background = '0x232136'
+primary.background = '0xffffff'

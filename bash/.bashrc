@@ -48,6 +48,7 @@ alias off='poweroff'
 alias shutdown='poweroff'
 alias yeet="rm -Rf"
 alias vi='vim'
+alias open='xdg-open'
 
 if [ -f /etc/bash_completion ]; then
    . /etc/bash_completion
@@ -59,3 +60,6 @@ parse_git_branch() {
 }
 
 PS1='$(parse_git_branch)\[\033[1m\][\h \W]\$\[\033[00m\] '
+
+# Settings exports, this is mainly for tmux/vim to correctly show colors
+export TERM=xterm-256color

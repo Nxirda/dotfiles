@@ -9,9 +9,8 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
-        "hyprland/window",
+        //"hyprland/window",
 	    "tray"
-        // "custom/media"
     ],
     "modules-center": [
         "clock"
@@ -29,9 +28,6 @@
     },
     // Modules configuration
     "hyprland/workspaces": {
-        //"disable-scroll": true,
-        //"all-outputs": true,
-        //"warp-on-scroll": false,
         //"format": "{name}: {icon}",
         "format": "●"
     },

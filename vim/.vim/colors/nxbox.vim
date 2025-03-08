@@ -536,7 +536,7 @@ hi! link lCursor Cursor
 " }}}
 " Syntax Highlighting: {{{
 
-" Categories made from vim :help highlight_groups
+" Categories made from vim :help highlight-groups
 
 " Comment 
 hi! link Comment    GruvboxGray 
@@ -558,10 +558,10 @@ hi! link Conditional    GruvboxPurple
 hi! link Repeat         GruvboxPurple
 hi! link Label          GruvboxBlue
 hi! link Operator       GruvboxBlue
-hi! link Keyword        GruvboxRed
+hi! link Keyword        GruvBoxBlue "GruvboxRed
 hi! link Exception      GruvboxRed
 " Need a base case that handles return for some reason
-hi! link Statement      GruvBoxPurple
+hi! link Statement      GruvBoxBlue ""GruvBoxPurple
 
 "Preproc | is simple but that s what we want clear and visible thing
 hi! link Include        GruvboxPurpleBold

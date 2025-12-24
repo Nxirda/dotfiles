@@ -4,10 +4,11 @@ dynamic_title = true
 decorations = "Full"
 
 [font]
-normal = { family = "FiraMono", style = "Regular"}
-bold = {family = "FiraMono"}
-italic = {family = "FiraMono"}
-bold_italic = {family = "FiraMono"}
+# FiraMono nerd font fixes glyphes
+normal = { family = "FiraMono Nerd Font Mono", style = "Regular"}
+bold = {family = "FiraMono Nerd Font Mono"}
+italic = {family = "FiraMono Nerd Font Mono"}
+bold_italic = {family = "FiraMono Nerd Font Mono"}
 size = 7
 
 [colors]

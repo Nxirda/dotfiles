@@ -77,7 +77,7 @@ call s:hi("DiffAdd", "NONE", s:base, s:green, "NONE", "NONE")
 call s:hi("DiffChange", "NONE", s:base, s:yellow, "NONE", "NONE")
 call s:hi("DiffDelete", "NONE", s:base, s:red, "NONE", "NONE")
 call s:hi("DiffText", "NONE", s:base, s:blue, "NONE", "NONE")
-call s:hi("EndOfBuffer", "NONE", "black", "NONE", "NONE", "NONE")
+call s:hi("EndOfBuffer", "NONE", "NONE", "NONE", "NONE", "NONE")
 call s:hi("ErrorMsg", "NONE", s:red, "NONE", "bolditalic"    , "bold,italic")
 call s:hi("VertSplit", "NONE", s:mauve, "NONE", "NONE", "bold")
 call s:hi("Folded", "NONE", s:blue, s:surface1, "NONE", "NONE")
@@ -164,7 +164,17 @@ let g:terminal_ansi_colors = [
 
 " Custom highlight groups for status line appearance
 call s:hi("ModeBg",         "NONE", "black",    s:mauve,    "NONE", "bold")
-call s:hi("PlaceInfo",      "NONE", s:lavender, "black",    "NONE", "bold")
+" For the rond character
+call s:hi("InverseMode",    "NONE", s:mauve,    "black",    "NONE", "bold")
+
+call s:hi("PlaceInfo",      "NONE", "black", s:flamingo,    "NONE", "bold")
+call s:hi("InversePlace",   "NONE", s:flamingo, s:statline,    "NONE", "bold")
+
 call s:hi("FileInfosBg",    "NONE", s:lavender, "black",    "NONE", "bold")
+call s:hi("InverseFile",    "NONE", "black",    s:statline, "NONE", "bold")
+
+call s:hi("Percent",        "NONE", "black",    s:red,      "NONE", "bold")
+call s:hi("InversePercent", "NONE", s:red,      s:flamingo, "NONE", "bold")
+
 call s:hi("Transparent",    "NONE", "NONE",     s:statline, "NONE", "NONE")
 call s:hi("InactiveColor",  "NONE", s:mauve,    s:statline,    "NONE", "NONE")

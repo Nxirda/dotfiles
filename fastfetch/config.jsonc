@@ -1,0 +1,83 @@
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+
+    "logo": {
+        "type": "small",
+        "padding": {
+            "top": 2,
+            "left": 1,
+            "right": 2
+        }
+    },
+
+    "display": {
+        "separator": "  "
+    },
+
+    "modules": [
+    // Title
+    {
+        "type": "title",
+        "format": "╔═══════════════════════════════════════════════════════════════╗" 
+    },
+    {
+        "type": "custom",
+        "format": "║\t\t\t Myrkr Station\t\t\t\t ║"
+    },
+    {
+        "type": "custom",
+        "format": "║\t\t\t  version: 1.0\t\t\t\t ║"
+    },
+    {
+        "type": "custom",
+        "format": "╠═══════════════════════════════════════════════════════════════╣"
+    },
+
+    {
+        "type": "os",
+        "key": "{#separator}║  {#keys} OS\t\t->",
+        "format":"{sysname} {name} {arch}\t\t\t ║"
+    },
+    {
+        "type": "cpu",
+        "key": "{#separator}║  {#keys} CPU\t->",
+        "format":"{name} {core-types}\t\t\t\t ║"
+    },
+    {
+        "type": "gpu",
+        "key": "{#separator}║  {#keys} GPU\t->",
+        "format":"{vendor} {name} [{type}]\t\t\t ║"
+    }, 
+    {
+        "type": "wm",
+        "key": "{#separator}║  {#keys} WM\t\t->",
+        "format":"{process-name} {version} [{protocol-name}]\t\t\t ║"
+    },
+    {
+        "type": "shell",
+        "key": "{#separator}║  {#keys} Shell\t->",
+        "format":"{process-name} {version} \t\t\t\t\t ║"
+    },
+    {
+        "type": "packages",
+        "key": "{#separator}║  {#keys} Pckgs\t->",
+        "format":"{all} (pacman) \t\t\t\t ║"
+    },
+    {
+        "type": "kernel",
+        "key": "{#separator}║  {#keys} Kernel\t->",
+        "format":"{sysname} {release} \t\t\t ║"
+    },
+    {
+        "type": "uptime",
+        "key": "{#separator}║  {#keys} Uptime\t->",
+        "format":"{hours}h {minutes}m \t\t\t\t\t ║"
+    },
+
+    // Footer
+    {
+        "type": "custom",
+        "format": "{#1}╚═══════════════════════════════════════════════════════════════╝"
+    }
+    ]
+}
